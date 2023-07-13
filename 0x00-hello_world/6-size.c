@@ -7,7 +7,6 @@ int main(void)
 	printf("  ccccc  ccccc  c      c      c   c \n");
 	printf("  c   c  c      c      c      c   c \n");
 	printf("  c   c  ccccc  ccccc  ccccc   ccc  \n\n");
-
 	printf("  c   c   ccc   cccc   c      cccc   \n");
 	printf("  c   c  c   c  c   c  c      c   c   \n");
 	printf("  c c c  c   c  cccc   c      c   c   \n");
