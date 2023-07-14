@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabetics
+ * main - Entry points
+ *
+ * Description: 'prints the alphabetics'
+ *
  * Retun: Always (success)
  */
 
