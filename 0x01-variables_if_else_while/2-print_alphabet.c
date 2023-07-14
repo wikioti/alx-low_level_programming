@@ -2,8 +2,8 @@
 #include <ctype.h>
 
 /**
- * main - Entry point
- * Description: prints the alphabet in lowercase, followed by a new line
+ * main - prints the alphabet in lowercase, followed by a new line.
+ * 
  * Retun: Always 0 (success)
  */
 
