@@ -1,20 +1,15 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
- * main - prints the alphabet in lowercase, followed by a new line.
- * 
- * Retun: Always 0 (success)
+ * main - prints the alphabetics
+ * Retun: Always (success)
  */
 
 int main(void)
 {
-	int lowerCase = 'a';
-	while (lowerCase <= 'z')
-	{
-		putchar(lowerCase);
-		lowerCase += 1;
-	}
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
 	putchar('\n');
 	return (0);
 }
