@@ -2,17 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print the alphabet in lowercase, and then in uppercase,
- * followed by a new line
+ * main - Entry point
+ *
  * Retun: Always 0 (success)
  */
 int main(void)
 {
-	int ch;
-	for (ch ='a'; ch <='z'; ch++)
-		putchar(ch);
-	for (ch ='A'; ch <='Z'; ch++)
-		putchar(ch);
-	putchar('\n')
+	int lowerCase = 'a';
+	while lowerCase <= 'z')
+	{
+		putchar(lowerCase);
+		lowerCase += 1;
+	}
+	putchar('\n');
 	return (0);
 }
