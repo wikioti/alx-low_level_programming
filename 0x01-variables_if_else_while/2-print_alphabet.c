@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry points
  *
- * Retun: Always (success)
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	char c;
