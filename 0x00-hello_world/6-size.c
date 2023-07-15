@@ -1,15 +1,15 @@
 #include <stdio.h>
+/**
+ * mainn - Entry point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	printf("\n\n");
-	printf("  c   c  ccccc  c      c       ccc  \n");
-	printf("  c   c  c      c      c      c   c \n");
-	printf("  ccccc  ccccc  c      c      c   c \n");
-	printf("  c   c  c      c      c      c   c \n");
-	printf("  c   c  ccccc  ccccc  ccccc   ccc  \n\n");
-	printf("  c   c   ccc   cccc   c      cccc   \n");
-	printf("  c   c  c   c  c   c  c      c   c   \n");
-	printf("  c c c  c   c  cccc   c      c   c   \n");
-	printf("  cc cc  c   c  c   c  c      c   c   \n");
-	printf("  c   c   ccc   c   c  ccccc  cccc    \n\n\n");
+	printf("Size of a char: %lu byte(s)\n", sizeof(char));
+	printf("Size of a int: %lu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)\n", sizeof(float));
+	return(0);
 }
