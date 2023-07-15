@@ -3,16 +3,18 @@
 /**
  * main - Entry points
  *
- * Description: 'prints the alphabetics'
- *
  * Retun: Always (success)
  */
 
 int main(void)
 {
 	char c;
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
